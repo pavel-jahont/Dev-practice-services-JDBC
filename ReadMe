@@ -1,0 +1,17 @@
+1) A service that reads commands from a file and displays them in the correct sequence. The commands in the file are the solution to the problem:
+a) Create the jd2_homework3-4 database
+b) Create a film table
+c) The film has a name, duration (let it be 60, 90 or 120 for simplicity minutes), ticket price
+d) Create 5 arbitrary entries in this table
+e) Find the maximum price among all films
+f)  Remove movie with minimum price
+g) Replace the name of the movie with the highest price with “Hot film!”
+h) Delete the film table
+i)  Delete jd2_homework3-4 database
+
+2)  A service that performs the following items using java (previously, the database should have a jd2_homework3-4 database and a car table):
+a) Adds 10 arbitrary records to table car with fields name (String), carModel (Enum with three value objects), engineСapacity (int in the range 1-10) in within one transaction
+b) Displays from the DATABASE a list of machines with fields name, carModel, engineСapacity, in which engineСapacity has some arbitrary value within single transaction
+c) Deletes records from the table with the minimum engineСapacity within one transactions
+d) Displays from the DATABASE the number of records for which engineСapacity some arbitrary value
+e) Replace title for machines with arbitrary engineCapacity with “Good capacity” and print result on screen in one transaction
